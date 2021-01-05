@@ -1,0 +1,23 @@
+/*Change brand name font*/
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    font-weight:bold;
+}
+/*Header image responsive*/
+.back-image
+{
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    min-height: 90vh;
+    border-radius:0px;
+    margin-top:50px;
+}
+/*Header Image Sub-Titile*/
+.font-italic
+{
+    font-size:24px;
+}
+
+
