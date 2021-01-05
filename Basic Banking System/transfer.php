@@ -13,6 +13,13 @@ if($curamt < $transferAmt)
     </script>
 <?php echo "<script>location.href='view_customers.php'</script>";
 }
+else if($id == $tid)
+{?>
+    <script>
+        alert("Sorry! You you can't transfer money to yourself");
+    </script>
+<?php echo "<script>location.href='view_customers.php'</script>";
+}
 else
 {
     $sql="select * from customers where id='$tid'";
